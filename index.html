@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing-Page</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500;600&display=swap');
+        header{
+            background-image: url("landingPage_assests/img/blue-rectangle.png");
+            height: 480px;
+            /* width : 1279px; */
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+            position: absolute;
+   
+        }
+        .heading{
+            display: flex;
+            /* border: 2px solid red; */
+            
+            /* width: 1235px; */
+            padding: 10px 20px;
+            margin-top: 80px;
+            margin-bottom: -40px; 
+            flex-direction: column;
+            align-items: center;
+            /* gap: 21px; */
+            position: relative;
+            
+        }
+        h1{
+            color: #FFF;
+            text-align: center;
+            font-family: Open Sans;
+            font-size: 34px;
+            font-style: normal;
+            font-size: xx-large;
+            font-weight: 600;
+            /* line-height: 43px; 126.471% */
+            letter-spacing: 0.34px;
+        }
+        
+        h4{
+            color: #FFF;
+            text-align: center;
+            font-family: Open Sans;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 400;
+            margin-top: 15px;
+            /* line-height: 25px; 138.889% */
+            letter-spacing: -0.333px;
+            text-transform: capitalize;
+        }
+
+        .flexbox1{
+            display: flex;
+            position: relative;
+            /* margin-top: 800px; */
+            /* border: 1px solid yellow; */
+            border-radius: 10px;
+            background-color: rgba(15, 91, 187, 0.30);
+
+            height: 120px;
+            margin:80px auto;
+            /* flex-direction: row; */
+            width: 900px;
+            
+        }
+        .flexbox1_parent{
+            justify-content: space-between;
+            flex-direction: column;
+            flex-basis: 25%;
+            /* border: 1px solid blue; */
+            align-items: center;
+        }
+        .flexbox1_child{
+            flex-direction: column;
+            /* border: 1px solid red; */
+            color: white;
+            display: flex;
+            align-items: center;
+            margin-top: 20px;
+            justify-content: center;
+            font-size: small;
+           
+        }
+        .flexbox1_i4{
+            padding:13px;
+            margin-top: 32px;
+        }
+        .flexbox1_button{
+            width: 180px;
+            height: 35px;
+            border: none;
+            border-radius: 5px;
+            font-weight: bold;
+            color: white;
+            background-image: linear-gradient(90deg, #ED7E43 0%, #FE5184 67.07%, #BC5D9A 100%);
+        }
+        .cal-logo{
+            margin-bottom: 8px;
+        }
+
+        .bTime{
+            font-weight: bold;
+            margin-top: -10px;
+            margin-bottom: 10px;
+        }
+
+        .keyHighlights{
+            
+            background-color: #ECF3F8;
+            height: 960px;
+        }
+            
+
+    </style>
+
+
+</head>
+<body>
+    
+    <header class="container-fluid">
+
+        <div class="heading container" >
+            <h1>Certification Program in Digital Marketing</h1>
+            
+            <h4>Earn back your course fee with paid internship & upscale with in demand skills of the industry</h4>
+        </div>
+        
+
+        <div class="flexbox1 container">
+
+            <div class="flexbox1_parent">
+
+                <div class="flexbox1_child flexbox1_i1">
+                    <img class="cal-logo" src = "https://cdn.eduonix.com/assets/images/Webinar_live/new_banner_design/cal.png" alt="" height="20px" width="20px">
+                    <p>Starts on</p>
+                    <p class="bTime">Next Sunday</p>
+                    
+                </div>
+            </div>
+
+            <div class="flexbox1_parent">
+                <div class="flexbox1_child flexbox1_i2">
+                    <img class="cal-logo" src = "https://cdn.eduonix.com/assets/images/Webinar_live/new_banner_design/time.png" alt="" height="20px" width="20px">
+                    <p>Duration</p>
+                    <p class="bTime">16 weeks</p>
+                </div>
+                
+            </div>
+
+            <div class="flexbox1_parent">
+                <div class="flexbox1_child flexbox1_i3">
+                    <img class="cal-logo" src = "https://cdn.eduonix.com/assets/images/Webinar_live/new_banner_design/cal-2.png" alt="" height="20px" width="20px">
+                    <p>Time</p>
+                    <p class="bTime">7:30 PM - 9:30 PM(IST)</p>
+                    
+                </div>
+
+            </div>
+
+            <div class="flexbox1_parent" >
+                <div class="flexbox1_child flexbox1_i4">
+                    <button class="button flexbox1_button" type="button">Enquiry Now</button>
+                </div>
+                
+            </div>
+
+
+        </div>
+        
+    </header>
+
+<hr><br>
+    
+    <div class="keyHighlights container-fluid">
+
+        <div class="flexbox2 container">
+
+            <div class="flexbox2_parent">
+
+                <div class="flexbox2_child ">
+                    <img class="cal-logo" src = "https://cdn.eduonix.com/assets/images/Webinar_live/new_banner_design/cal.png" alt="" height="20px" width="20px">
+                    <p>Starts on</p>
+                    <p class="bTime">Next Sunday</p>
+                    
+                </div>
+            </div>
+
+            <div class="flexbox2_parent">
+                <div class="flexbox1_child flexbox1_i2">
+                    <img class="cal-logo" src = "https://cdn.eduonix.com/assets/images/Webinar_live/new_banner_design/time.png" alt="" height="20px" width="20px">
+                    <p>Duration</p>
+                    <p class="bTime">16 weeks</p>
+                </div>
+                
+            </div>
+
+            <div class="flexbox2_parent">
+                <div class="flexbox1_child flexbox1_i3">
+                    <img class="cal-logo" src = "https://cdn.eduonix.com/assets/images/Webinar_live/new_banner_design/cal-2.png" alt="" height="20px" width="20px">
+                    <p>Time</p>
+                    <p class="bTime">7:30 PM - 9:30 PM(IST)</p>
+                    
+                </div>
+
+            </div>
+
+            <div class="flexbox2_parent" >
+                <div class="flexbox1_child flexbox1_i4">
+                    <button class="button flexbox1_button" type="button">Enquiry Now</button>
+                </div>
+                
+            </div>
+
+            <div class="flexbox2_parent">
+                <div class="flexbox1_child flexbox1_i3">
+                    <img class="cal-logo" src = "https://cdn.eduonix.com/assets/images/Webinar_live/new_banner_design/cal-2.png" alt="" height="20px" width="20px">
+                    <p>Time</p>
+                    
+                    
+                </div>
+
+            </div>
+
+
+        </div>
+        
+    </div>
+
+</body>
+</html>
