@@ -12,26 +12,25 @@
         @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500;600&display=swap');
         header{
             background-image: url("landingPage_assests/img/blue-rectangle.png");
-            height: 480px;
+            height: 550px;
             /* width : 1279px; */
             background-repeat: no-repeat;
             background-size: cover;
             background-attachment: fixed;
-            position: absolute;
+            /* position: absolute; */
    
         }
         .heading{
             display: flex;
             /* border: 2px solid red; */
-            
             /* width: 1235px; */
-            padding: 10px 20px;
-            margin-top: 80px;
+            padding: 80px 20px;
+            /* margin-top: 80px; */
             margin-bottom: -40px; 
             flex-direction: column;
             align-items: center;
             /* gap: 21px; */
-            position: relative;
+            /* position: relative; */
             
         }
         h1{
@@ -61,19 +60,19 @@
 
         .flexbox1{
             display: flex;
-            position: relative;
+            /* position: relative; */
             /* margin-top: 800px; */
             /* border: 1px solid yellow; */
             border-radius: 10px;
             background-color: rgba(15, 91, 187, 0.30);
-
-            height: 120px;
-            margin:80px auto;
+            padding-bottom: 80px;
+            height: 140px;
+            /* margin:40px auto; */
             /* flex-direction: row; */
             width: 900px;
             
         }
-        .flexbox1_parent{
+        .flexbox1_parent, .flexbox2_parent{
             justify-content: space-between;
             flex-direction: column;
             flex-basis: 25%;
@@ -114,11 +113,148 @@
             margin-bottom: 10px;
         }
 
-        .keyHighlights{
+        .flex2_bold_child{
+            /* width: 130px;
+            height: 28px; */
+            font-weight: bold;
+            font-size: medium;
+            font-family: Open Sans;
+            /* font-size: 16px; */
+            font-style: normal;
+            font-weight: 700;
+            
+        }
+        .flex2_cText_child{
+            /* justify-content: center; */
+            color: #818181;
+            text-align: center;
+            font-family: Open Sans;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 400;
+            /* font-size: medium;
+            text-decoration:none; */
+        }
+        .flex2_child_img{
+            width: 28px;
+            height: 28px;
+            margin-top: 5px;
+            margin-bottom: 15px;
+            flex-shrink: 0;
+        }
+
+        .keyHighlights_flexBox{
             
             background-color: #ECF3F8;
-            height: 960px;
+            height: 380px;
         }
+
+        .flexbox2{
+            display: flex;
+            position: absolute;
+            margin-top: -70px;
+            margin-left: 270px;
+            /* border: 1px solid yellow; */
+            align-items: center;
+            border-radius: 10px;
+            background-color: #FFF;
+            box-shadow: 2px 6px 30px rgba(0, 0, 0, 0.2);
+            color: black;
+            height: 140px;
+            /* margin:40px auto; */
+            /* flex-direction: row; */
+            width: 960px;
+            
+        }
+
+        .flexbox2_child{
+            flex-direction: column;
+            /* border: 1px solid red; */
+            color: black;
+            display: flex;
+            align-items: center;
+            
+            margin-top: 20px;
+            justify-content: center;
+            font-size: small;
+           
+        }
+
+
+        .flex2_bold_child{
+            /* width: 130px;
+            height: 28px; */
+            font-weight: bold;
+            font-size: medium;
+            font-family: Open Sans;
+            /* font-size: 16px; */
+            font-style: normal;
+            font-weight: 700;
+            
+        }
+        .flex2_cText_child{
+            /* justify-content: center; */
+            color: #818181;
+            text-align: center;
+            font-family: Open Sans;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 400;
+            /* font-size: medium;
+            text-decoration:none; */
+        }
+        .flex2_child_img{
+            width: 28px;
+            height: 28px;
+            margin-top: 5px;
+            margin-bottom: 15px;
+            flex-shrink: 0;
+        }
+
+        .keyHighlights_textfiled{
+            position: relative;
+        }
+
+        .keyHighlights_textfiled .heading{
+            color: #212529;
+            text-align: center;
+            font-family: Open Sans;
+            font-size: 26px;
+            font-style: normal;
+            font-weight: 700;
+
+            padding-top: 124px;
+        }
+
+        .keyH_grid{
+            position: relative;
+
+            display: grid;
+            /* padding-bottom: -80px; */
+            grid-template-columns: auto auto auto;
+            justify-content: space-around;
+            grid-row-gap: 20px;
+            
+
+        }
+
+        .kHgridItems{
+            /* border: 1px solid red; */
+            justify-content: center;
+
+            color: #212529;
+            font-family: Open Sans;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+        }
+
+        .abtTheProgram{
+
+            background-color: #FFF;
+            height: 380px;
+        }
+
             
 
     </style>
@@ -169,7 +305,7 @@
 
             <div class="flexbox1_parent" >
                 <div class="flexbox1_child flexbox1_i4">
-                    <button class="button flexbox1_button" type="button">Enquiry Now</button>
+                    <button class="button flexbox1_button" type="submit">Enquiry Now</button>
                 </div>
                 
             </div>
@@ -179,53 +315,51 @@
         
     </header>
 
-<hr><br>
     
-    <div class="keyHighlights container-fluid">
+    <div class="keyHighlights_flexBox container-fluid">
 
         <div class="flexbox2 container">
 
             <div class="flexbox2_parent">
-
                 <div class="flexbox2_child ">
-                    <img class="cal-logo" src = "https://cdn.eduonix.com/assets/images/Webinar_live/new_banner_design/cal.png" alt="" height="20px" width="20px">
-                    <p>Starts on</p>
-                    <p class="bTime">Next Sunday</p>
+                    <p class="flex2_bold_child">100%</p>
+                    <p class="flex2_cText_child"> Internship <br> Gurantee</p>
+                    
                     
                 </div>
             </div>
 
             <div class="flexbox2_parent">
-                <div class="flexbox1_child flexbox1_i2">
-                    <img class="cal-logo" src = "https://cdn.eduonix.com/assets/images/Webinar_live/new_banner_design/time.png" alt="" height="20px" width="20px">
-                    <p>Duration</p>
-                    <p class="bTime">16 weeks</p>
+                <div class="flexbox2_child flexbox2_i2">
+                    <p class="flex2_bold_child">4 months Live</p>
+                    <pre class="flex2_cText_child">   +6 Months <br> Extended Support</pre>
+                    
                 </div>
                 
             </div>
 
             <div class="flexbox2_parent">
-                <div class="flexbox1_child flexbox1_i3">
-                    <img class="cal-logo" src = "https://cdn.eduonix.com/assets/images/Webinar_live/new_banner_design/cal-2.png" alt="" height="20px" width="20px">
-                    <p>Time</p>
-                    <p class="bTime">7:30 PM - 9:30 PM(IST)</p>
+                <div class="flexbox2_child flexbox2_i3">
+                    <p class="flex2_bold_child">3-6 months</p>
+                    <p class="flex2_cText_child">Paid Internship <br> Upto 2.5-3 LPA</p>
                     
                 </div>
 
             </div>
 
             <div class="flexbox2_parent" >
-                <div class="flexbox1_child flexbox1_i4">
-                    <button class="button flexbox1_button" type="button">Enquiry Now</button>
+                <div class="flexbox2_child flexbox2_i4">
+                    <p class="flex2_bold_child">10+</p>
+                    <p class="flex2_cText_child">Projects and <br> Case Studies</p>
+                   
                 </div>
                 
             </div>
 
             <div class="flexbox2_parent">
-                <div class="flexbox1_child flexbox1_i3">
-                    <img class="cal-logo" src = "https://cdn.eduonix.com/assets/images/Webinar_live/new_banner_design/cal-2.png" alt="" height="20px" width="20px">
-                    <p>Time</p>
-                    
+                <div class="flexbox2_child flexbox2_i5">
+                    <img src="landingPage_assests/img/user.png" class="flex2_child_img" alt="">
+                    <p class="flex2_cText_child">Learn From<br> Industry Expert</p>
                     
                 </div>
 
@@ -233,8 +367,56 @@
 
 
         </div>
+
+        <div class="keyHighlights_textfiled">
+            <p class="heading">Key Highlights</p>
+        </div>
+
+        <div class="keyH_grid container">
+            <div class="kHgridItems">
+                <img src="landingPage_assests/img/bx-check.png" class="chx-box" alt="">
+                Practical learning
+            </div>
+            <div class="kHgridItems">
+                <img src="landingPage_assests/img/bx-check.png" class="chx-box" alt="">
+                Industry-Relevant Skills
+            </div>
+            <div class="kHgridItems">
+                <img src="landingPage_assests/img/bx-check.png" class="chx-box" alt="">
+                Expert-Led Sessions
+            </div>
+            <div class="kHgridItems">
+                <img src="landingPage_assests/img/bx-check.png" class="chx-box" alt="">
+                Personlized Mentorship
+            </div>
+            <div class="kHgridItems">
+                <img src="landingPage_assests/img/bx-check.png" class="chx-box" alt="">
+                Scenerio Based Assignment
+            </div>
+            <div class="kHgridItems">
+                <img src="landingPage_assests/img/bx-check.png" class="chx-box" alt="">
+                Professional Development
+            </div>
+            <div class="kHgridItems">
+                <img src="landingPage_assests/img/bx-check.png" class="chx-box" alt="">
+                Capstone Projects
+            </div>
+            <div class="kHgridItems">
+                <img src="landingPage_assests/img/bx-check.png" class="chx-box" alt="">
+                Guranteed Paid Internship
+            </div>
+
+            
+        </div>
         
     </div>
+
+    <div class="abtTheProgram container-fluid">
+
+
+    </div>
+
+    
 
 </body>
 </html>
