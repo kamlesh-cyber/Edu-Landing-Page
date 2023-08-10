@@ -1,0 +1,104 @@
+@media (min-width: 375px) and (max-width: 494px) {
+    .header{
+        width: 375px;
+        height: 356px;
+        position: relative;
+        flex-shrink: 0;
+    }
+    .heading{
+        width: 335px;
+
+        display: flex;
+        padding: 80px 20px;
+        margin-bottom: 0px; 
+        flex-direction: column;
+        align-items: center;
+
+    }
+    h1{
+        color: #FFF;
+        text-align: center;
+        font-family: Open Sans;
+        font-size: 28px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 43px; /* 153.571% */
+        letter-spacing: 0.28px;
+    }
+    h4{
+        color: #FFF;
+        text-align: center;
+        font-family: Open Sans;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 25px; /* 166.667% */
+        letter-spacing: -0.333px;
+    }
+
+    .flexbox2 {
+
+        display: none !important ;
+    }
+
+    .flexbox1{
+        display: flex;
+        flex-direction: column;
+        border-radius: 0px;
+        margin-left: -12px;
+      
+        border: 2px solid pink;
+        background-color: #08285F;
+        padding-bottom: 0px;
+        width: 100vw;
+        height: 170px;
+        flex-shrink: 0;
+        flex-grow: 1;
+
+    }
+    .flexbox1_i4{
+        
+        background-color: #FFF;
+        
+    }
+
+    .flexbox1_parent{
+        /* justify-content: space-between; */
+        display: flex;
+        
+        flex-basis:25%;
+        /* border: 2px solid red; */
+        height: 40px;
+        /* align-items: center; */
+        /* margin-left: -12px;
+        padding-left: -10px; */
+        justify-content: center;
+        flex-direction: column;
+        width:100vw;
+        align-items: normal;
+    }
+    .flexbox1_child{
+        display: flex;
+        flex-direction: row;
+        /* border: 1px solid red; */
+        border-bottom: 1px solid #1159A9;
+        height: 40px;
+        width: 100%;
+        color: white;
+        
+        align-items: center;
+        margin-top: 0px;
+        justify-content:flex-start;
+        font-size: small;
+       
+    }
+    .flexbox1_button{
+        width: 160px;
+        height: 35px;
+        border: none;
+        border-radius: 5px;
+        font-weight: bold;
+        color: white;
+        background-image: linear-gradient(90deg, #ED7E43 0%, #FE5184 67.07%, #BC5D9A 100%);
+    }
+}

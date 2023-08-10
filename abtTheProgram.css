@@ -1,0 +1,30 @@
+.carousel-item{
+
+}
+
+.card-wrapper{
+    /* width: 343px;
+    height: 310px;
+    justify-content: space-around; */
+}
+
+.card{
+
+}
+
+.card-img-top{
+    margin-top: 15px;
+    width: 44px;    
+    height: 44px;
+    
+    flex-shrink: 0;
+}
+.cardHeading{
+    color: #E9AA6F;
+    font-family: Open Sans;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 15px;
+}
