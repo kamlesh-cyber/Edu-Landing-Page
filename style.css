@@ -9,18 +9,14 @@ header{
     position: relative;
 
 }
-.heading{
+.topHeading{
     display: flex;
-    /* border: 2px solid red; */
-    /* width: 1235px; */
     padding: 80px 20px;
-    /* margin-top: 80px; */
+    
     margin-bottom: -40px; 
     flex-direction: column;
     align-items: center;
-    /* gap: 21px; */
-    /* position: relative; */
-    
+      
 }
 h1{
     color: #FFF;
@@ -220,11 +216,10 @@ h4{
     padding-top: 124px;
 }
 
-.keyH_grid{
+.keyH_grid, .whoCanApply_grid, .wYL_grid{
     position: relative;
-
     display: grid;
-    /* padding-bottom: -80px; */
+  
     grid-template-columns: auto auto auto;
     justify-content: space-around;
     grid-row-gap: 20px;
@@ -232,7 +227,7 @@ h4{
 
 }
 
-.kHgridItems{
+.kHgridItems, .wCAGridItems, .wYL_gridItems{
     /* border: 1px solid red; */
     justify-content: center;
 
@@ -243,22 +238,7 @@ h4{
     font-weight: 400;
 }
 
-.abtTheProgram{
 
-    background-color: #FFF;
-    height: 380px;
-}
-
-.abtpTheading{
-    color: #212529;
-    text-align: center;
-    font-family: Open Sans;
-    font-size: 26px;
-    font-style: normal;
-    font-weight: 700;
-
-    padding-top: 50px;
-}
 
 
 
