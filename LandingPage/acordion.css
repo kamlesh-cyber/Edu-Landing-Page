@@ -1,0 +1,14 @@
+#accordBtn{
+    display: block;
+}
+#more_syllabus_accordion{
+
+    display: none;
+
+    transform: translateY(-10px);
+    transition: opacity 5s, transform 0.3s;
+    z-index: 1;
+
+}
+
+

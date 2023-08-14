@@ -1,0 +1,55 @@
+.toolsCoverd, .topCompaniesDiv{
+    height: 350px;
+    background-color: #FFF;
+    border: 2px solid orange;
+}
+
+.tC_flexBox {
+    
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    /* border: 2px solid orange; */
+}
+
+.tC_flexBox img{
+    padding: 10px;
+}
+
+.syllabus{
+    
+    height: 400px;
+    flex-shrink: 0;
+    background-color: #ECF3F8;
+}
+.syll_heading{
+    padding: 40px;
+    color: #212529;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 34px; /* 130.769% */
+}
+.syll_heading span{
+    padding: 5px;
+    margin-left: 10px;
+    padding-bottom: -5px;
+    color: #212529;
+    font-family: Open Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 185.714% */
+
+    width: 131px;
+    /* height: 44px; */
+    flex-shrink: 0;
+    background-color: #D3E8F4;
+    border-radius:15px;
+
+}
+
+
+
