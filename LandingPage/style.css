@@ -18,7 +18,7 @@ header{
     align-items: center;
       
 }
-h1{
+.topHeading h1{
     color: #FFF;
     text-align: center;
     font-family: Open Sans;
@@ -30,7 +30,7 @@ h1{
     letter-spacing: 0.34px;
 }
 
-h4{
+.topHeading h4{
     color: #FFF;
     text-align: center;
     font-family: Open Sans;
@@ -42,6 +42,8 @@ h4{
     letter-spacing: -0.333px;
     text-transform: capitalize;
 }
+
+
 
 .flexbox1{
     display: flex;

@@ -1,24 +1,53 @@
-.toolsCoverd, .topCompaniesDiv{
-    height: 350px;
+.toolsCoverd, .topCompaniesDiv, .industry_Insights_div{
+    height: 380px;
     background-color: #FFF;
-    border: 2px solid orange;
+    /* border: 2px solid orange; */
 }
 
-.tC_flexBox {
+.tC_flexBox, .topComp_flexBox, .indusInsigh_flexBoxDiv, .instructorPanel_flexBox{
     
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    align-items: center;
     /* border: 2px solid orange; */
 }
 
-.tC_flexBox img{
+.tC_flexBox img, .topComp_flexBox img{
     padding: 10px;
 }
 
+.indusInsigh_flexItem{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column !important;
+    width: 401px;
+    height: 150px;
+    flex-shrink: 0;
+    margin: 20px;
+    
+
+    color: #212529;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px; /* 200% */
+    background-color: #E8F0F6;
+    /* border: 1px solid blue; */
+}
+
+
+/* .chx-box{
+    width: 22px;
+    height: 22px;
+    flex-shrink: 0;
+} */
 .syllabus{
     
-    height: 400px;
+    /* height: 400px; */
     flex-shrink: 0;
     background-color: #ECF3F8;
 }
@@ -52,4 +81,111 @@
 }
 
 
+
+/* Industry Projects Div */
+.indusProject_div{
+    height: 700px;
+    background-color: #FFF;
+    
+    border: 2px solid orange;
+}
+
+.indusProj_flexBox{
+    
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 10px;
+    border: 2px solid orange;
+}
+
+.indusProj_flexBox .card{
+    display: flex;
+    width: 200px;
+    height: 220px;
+    margin: 10px;
+    justify-content: center;
+    flex-shrink: 0;
+    
+    background-color: #FFF;
+    stroke-width: 1px;
+    stroke: #CFD4E1;
+    filter: drop-shadow(0px 6px 12px rgba(0, 0, 0, 0.10));
+}
+.indusProj_flexBox .card img{
+
+
+    margin: 15px;
+    /* margin-bottom: 15px; */
+    /* border: 2px solid blue; */
+    padding-top: 0px;
+    /* width: 195px; */
+    height: 100px;
+    flex-shrink: 0;
+    align-items: center;
+  
+    flex-shrink: 0;
+
+    border-radius: 10px;
+}
+
+/* .indusProj_card-img img{
+    width: 195px;
+    height: 100px;
+    flex-shrink: 0;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    border: 1px solid orangered;
+    border-radius: 10px;
+} */
+
+.indusProj_card-body{
+    padding-top: 20px;
+    color: #212529;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px; /* 153.846% */
+}
+
+/* Instructor Panel */
+
+.instructorPanel_div{
+    background-color: #ECF3F8;
+    /* height: 500px; */
+    /* border: 2px solid blue; */
+}
+
+.instructorPanel_flexBox .card{
+    width: 531px;
+    height: 520px;
+    flex-shrink: 0;
+    align-items: center;
+    border-radius: 15px;
+    margin: 10px;
+    padding: 30px;
+}
+
+.instructorPanel_flexBox .instructorsPic{
+    width: 171px;
+    height: 156px;
+    flex-shrink: 0;
+    border-radius: 30px;
+    border: 2px solid #03B5D5;
+    
+}
+
+.instructors_orgExp_Grid{
+    /* display: none; */
+    display: grid;
+    padding-top: 20px;
+    /* padding-bottom: -80px; */
+    grid-template-columns: auto auto;
+    justify-content: space-around;
+    grid-row-gap: 5px;
+}
 
