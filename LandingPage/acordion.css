@@ -1,5 +1,15 @@
 #accordBtn{
     display: block;
+    margin: 0 auto;
+    border: none;
+    background: none;
+
+    color: #212529;
+    font-family: Open Sans;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 26px; /* 173.333% */
 }
 #more_syllabus_accordion{
 
@@ -11,4 +21,8 @@
 
 }
 
+
+.accordion-body{
+    background-color: #D7DFE3;
+}
 

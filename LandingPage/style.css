@@ -18,6 +18,10 @@ header{
     align-items: center;
       
 }
+
+.keyHighlights_textfiled .heading {
+margin-top: 0px;
+}
 .topHeading h1{
     color: #FFF;
     text-align: center;

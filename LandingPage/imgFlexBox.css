@@ -1,5 +1,5 @@
 .toolsCoverd, .topCompaniesDiv, .industry_Insights_div{
-    height: 380px;
+    /* height: 380px; */
     background-color: #FFF;
     /* border: 2px solid orange; */
 }
@@ -41,8 +41,8 @@
 
 
 /* .chx-box{
-    width: 22px;
-    height: 22px;
+    width: 13.213px;
+    height: 10.194px;
     flex-shrink: 0;
 } */
 .syllabus{
@@ -84,10 +84,10 @@
 
 /* Industry Projects Div */
 .indusProject_div{
-    height: 700px;
+    /* height: 700px; */
     background-color: #FFF;
     
-    border: 2px solid orange;
+    /* border: 2px solid orange; */
 }
 
 .indusProj_flexBox{
@@ -97,7 +97,7 @@
     flex-wrap: wrap;
     align-items: center;
     padding: 10px;
-    border: 2px solid orange;
+    /* border: 2px solid orange; */
 }
 
 .indusProj_flexBox .card{
@@ -158,20 +158,33 @@
     background-color: #ECF3F8;
     /* height: 500px; */
     /* border: 2px solid blue; */
+    padding-bottom: 40px;
+    padding-top: 30px;
 }
 
-.instructorPanel_flexBox .card{
-    width: 531px;
-    height: 520px;
+.instruct_carous_cont{
+    width: 510px !important;
+    height: 490px;
+    flex-shrink: 0;
+    /* border: 2px solid blue; */
+    /* background: pink; */
+    /* padding: 10px; */
+    margin: 20px;
+}
+
+.instructorPanel_flexBox .instructors_card{
+    width: 510px;
+    height: 490px;
     flex-shrink: 0;
     align-items: center;
     border-radius: 15px;
-    margin: 10px;
+    margin: 20px;
     padding: 30px;
+    
 }
 
 .instructorPanel_flexBox .instructorsPic{
-    width: 171px;
+    width: 171px !important;
     height: 156px;
     flex-shrink: 0;
     border-radius: 30px;
@@ -179,13 +192,89 @@
     
 }
 
+
 .instructors_orgExp_Grid{
     /* display: none; */
-    display: grid;
+    display: flex;
     padding-top: 20px;
     /* padding-bottom: -80px; */
-    grid-template-columns: auto auto;
+    /* grid-template-columns: auto auto; */
+    flex-direction: row;
     justify-content: space-around;
     grid-row-gap: 5px;
 }
 
+.saurabh_gridItems{
+    align-items: center;
+    color: #212529;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.instructors_orgExp_Grid .chx-box{
+    width: 22px !important;
+    height: 22px;
+    flex-shrink: 0;
+}
+
+.instructors_orgExp_flexDiv{
+    /* display: none; */
+    display: flex;
+    /* padding-top: 20px; */
+    /* padding-bottom: -80px; */
+    /* grid-template-columns: auto auto; */
+    /* width: 380px;
+    height: 220px; */
+    /* border: 2px solid red; */
+    flex-direction: row;
+    justify-content: center;
+    /* grid-row-gap: 5px; */
+}
+
+.inst1_leftItem_flexDiv{
+    /* border: 2px solid aquamarine; */
+    /* width: 160px;
+    height: 200px; */
+    /* flex-direction: column; */
+    
+}
+
+.inst1_rightItem_flexDiv{
+    
+    /* border: 2px solid aquamarine; */
+    /* width: 160px;
+    height: 200px; */
+    /* display: flex; */
+    /* justify-content: ; */
+    /* flex-direction: row !important; */
+}
+
+.inst1_rightItem_flexDiv .nitin_gridItems{
+    display: flex;
+    margin: 10px;
+}
+.inst1_leftItem_flexDiv .nitin_gridItems{
+    display: flex;
+    margin: 10px;
+}
+
+
+
+
+.inst2_rightItem_flexDiv .nitin_gridItems{
+    display: flex;
+    margin: 10px;
+}
+.inst2_leftItem_flexDiv .nitin_gridItems{
+    display: flex;
+    margin: 10px;
+}
+
+
+.instructorPanel_div .chx-box{
+    width: 22px !important;
+    height: 22px;
+    /* border: 2px solid pink; */
+}

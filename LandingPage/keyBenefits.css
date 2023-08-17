@@ -1,10 +1,9 @@
 
 .keyBContainer{
-    /* border: 2px solid black; */
-    
-    width: 1240px;
-    height: 435px;
+    border: 2px solid black;
+    margin: 40px !important;
     background-color: #FFF;
+    padding-bottom: 30px;
     flex-shrink: 0;
 
 }
@@ -12,7 +11,7 @@
     display: flex; /* Use flexbox */
     align-items: center; /* Center vertically */
     justify-content: center; /* Center horizontally */
-    height: 495px;
+    /* height: 495px; */
     background-color: #0087D3;
 }
 
@@ -49,7 +48,7 @@
     justify-content: space-around;
     grid-row-gap: 20px;
 }
-.kBgridItems{
+.kBgridItems, .saurabh_gridItems{
     /* justify-content: center; */
     align-items: center;
     color: #212529;
@@ -63,14 +62,17 @@
     display: flex; /* Use flexbox */
     align-items: center; /* Center vertically */
     justify-content: center; /* Center horizontally */
-    height: 257px;
+    /* height: 257px; */
     background-color: #ECF3F8;
+    /* margin-bottom: 100px !important; */
+    padding-bottom: 40px;
     
 }
 
 .whatYouwillLearn{
-    height: 300px;
+    /* height: 300px; */
     background-color: #FFF;
+    /* border: 2px solid red; */
 }
 
 
