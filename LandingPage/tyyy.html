@@ -440,5 +440,53 @@
 
 
 <!-- instructor gridnassd-------------------------------------------------------------------- -->
+
+
+
+<!-- accord more btn subcontent -->
+<div class="accordion-subItem my-3 " id="accordion-subItem1">
+    <p class="accordion-subItemHeader">
+        <button class="accordion-button collapsed" type="button"
+        data-bs-toggle="collapse" data-bs-target="#subContent-accordion-1">
+        More
+        </button>
+    </p>
+        <!-- subContent-accordion-2 -->
+    <div id="subContent-accordion-1" class="accordion-collapse collapse"
+        data-bs-parent="#accordion-subItem1">
+        <div class="accordion-body">
+            <ul>
+                <li>Segmentation, Targeting, and Positioning</li>
+                <li>Marketing Funnel Basics</li>
+                <li>The Role of a Website in Marketing</li>
+            </ul>
+
+        </div>
+    </div>
+</div>
+<!-- accord more btn subcontent close -->
 </body>
 </html>
+
+
+
+
+.flexbox2 {
+    display: grid;
+    /* flex-wrap: wrap; */
+    /* grid-template-columns: auto auto; */
+    /* justify-content: center; */
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    /* align-items: center; 
+    text-align: center; */
+
+    margin: 0 auto;
+    position:relative;
+    padding-top: 0px;
+    margin-top: 233px;
+    /* top: 84%; */
+    height: 350px;
+    width: auto;
+
+}

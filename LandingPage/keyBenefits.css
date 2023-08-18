@@ -1,6 +1,6 @@
 
 .keyBContainer{
-    border: 2px solid black;
+    /* border: 2px solid black; */
     margin: 40px !important;
     background-color: #FFF;
     padding-bottom: 30px;
@@ -14,10 +14,13 @@
     /* height: 495px; */
     background-color: #0087D3;
 }
-
+.moreBtn_kBGrid{
+    display: none;
+}
 .heading{
 
-    margin: 40px;
+    margin-top: 40px;
+    margin-bottom: 40px;
     color: #212529;
     text-align: center;
     font-family: Open Sans;
@@ -40,7 +43,7 @@
 
 
 
-.keyB_grid{
+.keyB_grid, .more_keyB_grid{
     /* display: none; */
     display: grid;
     /* padding-bottom: -80px; */

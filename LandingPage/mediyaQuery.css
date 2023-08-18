@@ -1,19 +1,21 @@
 @media (min-width: 375px) and (max-width: 494px) {
-    .header{
-        width: 375px;
-        height: 356px;
+    header{
+        /* width: 375px; */
+        height: 474px;
         position: relative;
         flex-shrink: 0;
     }
-    .heading{
-        width: 335px;
-
-        display: flex;
-        padding: 80px 20px;
-        margin-bottom: 0px; 
-        flex-direction: column;
-        align-items: center;
-
+    .heading {
+        margin-top: 20px;
+        /* margin-bottom: 40px; */
+        padding-bottom: 30px;
+        color: #212529;
+        text-align: center;
+        font-family: Open Sans;
+        font-size: 26px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 34px;
     }
     h1{
         color: #FFF;
@@ -36,38 +38,27 @@
         letter-spacing: -0.333px;
     }
 
-    .flexbox2 {
-
-        display: none !important ;
-    }
-
     .flexbox1{
         display: flex;
         flex-direction: column;
         border-radius: 0px;
-        margin-left: -12px;
-      
-        border: 2px solid pink;
-        background-color: #08285F;
-        padding-bottom: 0px;
-        width: 100vw;
-        height: 170px;
-        flex-shrink: 0;
-        flex-grow: 1;
+        width: auto;
+        /* position: relative; */
 
-        display: none !important;
 
     }
-    .flexbox1_i4{
-        
-        background-color: #FFF;
-        
+ 
+
+    .flexbox1 .container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl{
+        padding-right: 0;
+        padding-left: 0;
     }
+
 
     .flexbox1_parent{
         /* justify-content: space-between; */
         display: flex;
-        
+        flex-wrap: nowrap;
         flex-basis:25%;
         /* border: 2px solid red; */
         height: 40px;
@@ -76,23 +67,35 @@
         padding-left: -10px; */
         justify-content: center;
         flex-direction: column;
-        width:100vw;
+        /* width:100vw; */
         align-items: normal;
     }
     .flexbox1_child{
         display: flex;
         flex-direction: row;
-        /* border: 1px solid red; */
-        border-bottom: 1px solid #1159A9;
+        border-bottom: 2px solid #1159A9;
         height: 40px;
         width: 100%;
         color: white;
         
         align-items: center;
-        margin-top: 0px;
-        justify-content:flex-start;
+        margin: 0px;
+        
         font-size: small;
+
+        padding: 0 30px;
+        justify-content: flex-start;
+        gap: 12px;
+
        
+    }
+    .flexbox1_child  P{
+
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+    .flexbox1_child .flexbox1_i3  .bTime{
+        margin-left: 50px !important;
     }
     .flexbox1_button{
         width: 160px;
@@ -103,4 +106,156 @@
         color: white;
         background-image: linear-gradient(90deg, #ED7E43 0%, #FE5184 67.07%, #BC5D9A 100%);
     }
+
+    .flexbox1_i4{
+        background-color: #FFF;
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+        margin-top: 28px;
+        border: none;
+    }
+    .flexbox1_button{
+        width: 335px;
+        height: 44px;
+        border: none;
+        border-radius: 5px;
+        
+        font-weight: bold;
+        color: white;
+        background-image: linear-gradient(90deg, #ED7E43 0%, #FE5184 67.07%, #BC5D9A 100%);
+    }
+    .cal-logo{
+        margin-bottom: 0;
+    }
+    
+    .bTime{
+        font-weight: bold;
+        margin-top: 0;
+        margin-bottom:0;
+    }
+
+    .bTimeLeft{
+        margin-left: 23px !important;
+    }
+
+
+
+    /* Flexbox-2  */
+
+    .flexbox2{
+        display: flex;
+        position: relative;
+        justify-content: center;
+        align-items: center;
+        width: 350px !important;
+        height: 350px;
+        top: 0px;
+        left: 45%;
+        margin: 20px !important;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .flexbox2_child{
+        min-width: 160px;
+        min-height: 85px;
+    }
+
+    .flexbox2 .doItInCenter{
+        grid-column: 1 / -1; /* Span all columns */
+        grid-row: 2 / 3; /* Span rows 2 and 3 */
+    }
+
+    .keyHighlights_flexBox{
+    
+        background-color: #ECF3F8;
+        margin-top: 250px;
+        padding-top: 0px;
+        position: relative;
+        padding-bottom: 40px;
+        /* margin-bottom: 30px; */
+        /* height: 380px; */
+    }
+
+    .keyHighlights_textfiled .heading {
+        margin-top: -162px;
+        margin-bottom: 16px;
+        padding: 30px;
+        margin-left: 25px;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        /* align-content: stretch; */
+        flex-wrap: nowrap;
+    }
+
+    .keyHighlights_flexBox{
+    
+        background-color: #ECF3F8;
+        /* height: 380px; */
+    }
+
+    .keyH_grid, .whoCanApply_grid, .wYL_grid{
+        position: relative;
+        display: grid;
+      
+        grid-template-columns: auto;
+        justify-content: space-around;
+        grid-row-gap: 20px;
+        
+    }
+
+    .keyBenefits{
+        display: flex; /* Use flexbox */
+        align-items: center; /* Center vertically */
+        justify-content: center; /* Center horizontally */
+        /* height: 495px; */
+        background-color: #0087D3;
+    }
+    .keyBContainer{
+        /* border: 2px solid black; */
+        margin: 40px !important;
+        margin-left: 20px !important;
+        margin-right: 20px !important;
+        background-color: #FFF;
+        padding-bottom: 30px;
+        flex-shrink: 0;
+    
+    }
+    .keyB_grid {
+        /* display: none; */
+        display: grid !important;
+        grid-template-columns: auto !important;
+        justify-content: space-around;
+        grid-row-gap: 20px;
+    }
+
+
+
+    .instructorPanel_flexBox .instructors_card {
+        width: 344px !important;
+        height: 514px !important;
+        flex-shrink: 0 ;
+        align-items: center !important;
+        border-radius: 15px !important;
+        margin: -16px !important;
+        padding: 30px !important;
+    }
+
+    .toolsCoverd{
+        padding-bottom: 40px;
+    }
+
+    .tC_flexBox img{
+        width: 108px !important;
+        height: 44px !important;
+        flex-shrink: 0;
+
+    }
+
+    .tC_flexBox img, .topComp_flexBox img{
+        padding: 3px !important;
+    }
+
 }

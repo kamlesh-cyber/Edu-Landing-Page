@@ -19,9 +19,6 @@ header{
       
 }
 
-.keyHighlights_textfiled .heading {
-margin-top: 0px;
-}
 .topHeading h1{
     color: #FFF;
     text-align: center;
@@ -54,6 +51,8 @@ margin-top: 0px;
     border-radius: 10px;
     background-color: rgba(15, 91, 187, 0.30);
     padding-bottom: 80px;
+    /* margin-left: 80px;
+    margin-right:80px; */
     height: 120px;
     /* margin:40px auto; */
     /* flex-direction: row; */
@@ -136,21 +135,24 @@ margin-top: 0px;
 .keyHighlights_flexBox{
     
     background-color: #ECF3F8;
-    height: 380px;
+    /* margin-top: 250px; */
+    padding-top: 124px;
+    position: relative;
+    /* height: 380px; */
 }
 
 .flexbox2 {
-        display: flex;
-        position: absolute;
-        top: 78%;
-        left: 50%;
-        transform: translate(-50%,-50%);
-        border-radius: 10px;
-        background-color: #FFF;
-        box-shadow: 2px 6px 30px rgba(0, 0, 0, 0.2);
-        color: black;
-        height: 120px;
-        width: 960px;
+    display: flex;
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 10px;
+    background-color: #FFF;
+    box-shadow: 2px 6px 30px rgba(0, 0, 0, 0.2);
+    color: black;
+    height: 120px;
+    width: 960px;
     }
 
 
@@ -207,20 +209,15 @@ margin-top: 0px;
     font-weight: 700;
 }
 
-.keyHighlights_textfiled{
-    position: relative;
+.keyHighlights_flexBox{
+    
+    background-color: #ECF3F8;
+    /* height: 380px; */
 }
 
-.keyHighlights_textfiled .heading{
-    color: #212529;
-    text-align: center;
-    font-family: Open Sans;
-    font-size: 26px;
-    font-style: normal;
-    font-weight: 700;
-
-    padding-top: 124px;
-}
+.keyHighlights_textfiled .heading {
+    margin-top: 0px;
+    }
 
 .keyH_grid, .whoCanApply_grid, .wYL_grid{
     position: relative;

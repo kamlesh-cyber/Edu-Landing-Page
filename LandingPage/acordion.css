@@ -1,9 +1,9 @@
-#accordBtn{
+.moreBtn{
     display: block;
-    margin: 0 auto;
+    /* border: 2px solid blue; */
+    text-align: center;
     border: none;
     background: none;
-
     color: #212529;
     font-family: Open Sans;
     font-size: 15px;
@@ -11,6 +11,40 @@
     font-weight: 700;
     line-height: 26px; /* 173.333% */
 }
+
+.moreBtn_subContent{
+    display: block;
+    /* border: 2px solid blue; */
+    /* text-align: center; */
+    padding-left: 10px;
+    border: none;
+    background: none;
+    color: #212529;
+    font-family: Open Sans;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 26px; /* 173.333% */
+}
+
+#accordBtn, #more_accordBtn{
+
+    border: none;
+    background: none;
+    color: #212529;
+    font-family: Open Sans;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 26px; /* 173.333% */
+}
+
+
+
+.moreSubContents{
+    display: none;
+}
+
 #more_syllabus_accordion{
 
     display: none;
