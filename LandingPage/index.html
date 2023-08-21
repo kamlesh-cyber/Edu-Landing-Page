@@ -132,7 +132,7 @@
         <div class="keyHighlights_textfiled">
             <div class="heading">Key Highlights</div>
         </div>
-
+        <!-- keyHeighlight_grid -->
         <div class="keyH_grid container">
             <div class="kHgridItems">
                 <img src="landingPage_assests/img/bx-check.png" class="chx-box" alt="">
@@ -347,43 +347,46 @@
                     <img src="landingPage_assests/img/bx-check.png" class="chx-box" alt="">
                     Start earning with acquired Digital Marketing Skills
                 </div>
-                <!-- in mobile view it has to be in more button -->
-                <!-- <div class="moreBtn_kBGrid">
-                    <span>More</span>
-                    <button id="more_accordBtn"  onclick="syllSubContentCollapse()" type="button">
-                    <img src="landingPage_assests/img/bxs-checkon-down.svg" alt=""> 
-                    </button> 
-                </div> -->
-                <!-- <div id="more_keyB_grid container-fluid"> -->
-                    <div class="kBgridItems">
-                        <img src="landingPage_assests/img/bx-check.png" class="chx-box" alt="">
-                        Interactive live training sessions
-                    </div>
-                    <div class="kBgridItems">
-                        <img src="landingPage_assests/img/bx-check.png" class="chx-box" alt="">
-                        Solve your queries in real-time with instructors
-                    </div>
-                    <div class="kBgridItems">
-                        <img src="landingPage_assests/img/bx-check.png" class="chx-box" alt="">
-                        Learn & Master trending tools & technologies
-                    </div>
-                    <div class="kBgridItems">
-                        <img src="landingPage_assests/img/bx-check.png" class="chx-box" alt="">
-                        Work on Real-World Projects
-                    </div>
-                    <div class="kBgridItems">
-                        <img src="landingPage_assests/img/bx-check.png" class="chx-box" alt="">
-                        Get Support from mentors
-                    </div>
-                    <div class="kBgridItems">
-                        <img src="landingPage_assests/img/bx-check.png" class="chx-box" alt="">
-                        Live Interview training sessions
-                    </div>
-                    <div class="kBgridItems">
-                        <img src="landingPage_assests/img/bx-check.png" class="chx-box" alt="">
-                        15+ Tools & Technologies Covered
-                    </div>
-                <!-- </div> -->
+            
+            <!-- in mobile view it has to be in more button -->
+
+            <!-- <div id="more_keyB_grid container-fluid"> -->
+                <div class="kBgridItems">
+                    <img src="landingPage_assests/img/bx-check.png" class="chx-box" alt="">
+                    Interactive live training sessions
+                </div>
+                <div class="kBgridItems">
+                    <img src="landingPage_assests/img/bx-check.png" class="chx-box" alt="">
+                    Solve your queries in real-time with instructors
+                </div>
+                <div class="kBgridItems">
+                    <img src="landingPage_assests/img/bx-check.png" class="chx-box" alt="">
+                    Learn & Master trending tools & technologies
+                </div>
+                <div class="kBgridItems">
+                    <img src="landingPage_assests/img/bx-check.png" class="chx-box" alt="">
+                    Work on Real-World Projects
+                </div>
+                <div class="kBgridItems">
+                    <img src="landingPage_assests/img/bx-check.png" class="chx-box" alt="">
+                    Get Support from mentors
+                </div>
+                <div class="kBgridItems">
+                    <img src="landingPage_assests/img/bx-check.png" class="chx-box" alt="">
+                    Live Interview training sessions
+                </div>
+                <div class="kBgridItems">
+                    <img src="landingPage_assests/img/bx-check.png" class="chx-box" alt="">
+                    15+ Tools & Technologies Covered
+                </div>
+            <!-- </div> -->
+            </div>
+
+            <div class="moreBtn_kBGrid">
+                <span>More</span>
+                <button class="more_keyBenBtn" type="button">
+                <img src="landingPage_assests/img/bxs-checkon-down.svg" alt=""> 
+                </button> 
             </div>
 
         </div>
@@ -648,45 +651,7 @@
             </div>
 
             <script>
-                const sylcollapse=(accordBtn)=> {
-                    
-                    var syllabusAccordion = document.getElementById("more_syllabus_accordion");
-                    syllabusAccordion.style.display = syllabusAccordion.style.display === "none" ? "block" : "none";
-                }
 
-                const syllSubContentCollapse=(num)=>{
-                    var subContentDiv;
-                    switch (num){
-                        case 1:
-                            subContentDiv = document.getElementById("moreSubContents-1");
-                            subContentDiv.style.display = subContentDiv.style.display === "none" ? "block" : "none";
-                            break;
-                        case 2:
-                            subContentDiv = document.getElementById("moreSubContents-2");
-                            subContentDiv.style.display = subContentDiv.style.display === "none" ? "block" : "none";
-                            break;
-                        case 3:
-                            subContentDiv = document.getElementById("moreSubContents-3");
-                            subContentDiv.style.display = subContentDiv.style.display === "none" ? "block" : "none";
-                        case 4:
-                            subContentDiv = document.getElementById("moreSubContents-4");
-                            subContentDiv.style.display = subContentDiv.style.display === "none" ? "block" : "none";
-                        case 5:
-                            subContentDiv = document.getElementById("moreSubContents-5");
-                            subContentDiv.style.display = subContentDiv.style.display === "none" ? "block" : "none";
-                        case 6:
-                            subContentDiv = document.getElementById("moreSubContents-6");
-                            subContentDiv.style.display = subContentDiv.style.display === "none" ? "block" : "none";
-                        case 8:
-                            subContentDiv = document.getElementById("more_keyB_grid");
-                            subContentDiv.style.display = subContentDiv.style.display === "none" ? "block" :
-                            "none";
-                        default:
-                            console.log("error");
-
-                    }
-
-                }
             </script>
 
             <div class="accordion " id="more_syllabus_accordion">
@@ -1038,6 +1003,8 @@
 
             </div>
         </div>
+
+        
     </div>
 
     <!-- Instructor Panel -->
@@ -1388,6 +1355,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
     <!-- Initialize owl Carousel -->
+    <!-- owl carousel scripts -->
     <script>
         $('.review-owl-carousel').owlCarousel({
             loop:true,
@@ -1499,44 +1467,100 @@
 
         $('.topComp_owl-carosel').owlCarousel({
             loop:true,
-            margin:10,
+            margin:20,
             autoWidth:true,
-            //autoplay: true, // Enable auto slide
+            autoplay: true, // Enable auto slide
             autoplayTimeout: 1000, // Time between slides in milliseconds
             autoplayHoverPause: true, // Pause autoplay on hover
             responsiveClass:true,
             responsive:{
                 0:{
                     items:2,
-                    nav:true
+                    // nav:true
                 },
                 375: {
                     items: 1.2,
-                    nav:true
+                    // nav:true
                 },
                 500: {
                     items:2,
-                    nav:true
-                },
-                768: {
-                    items:2,
-                    nav:true,
-                    loop:true
-                },
-                1024: {
-                    items:3.2,
-                    nav:true,
-                    loop:true
-                },
-                1440: {
-                    items:4.3,
-                    nav:true,
-                    loop:true
+                    // nav:true
                 }
             }
         })
+
+
+
     </script>
 
+    <!-- more button scripts -->
+    <script>
+        // const moreKeyBenGrid=()=>{
+        //     // var moreKeyBenButton = document.getElementById("more_KeyBeneBtn");
+        //     const keyBenDiv = document.getElementsByClassName("keyBenefits");
+        //     const keyBContDiv = document.getElementsByClassName("keyBContainer");
+
+        //     keyBContDiv.addEventListener("click, ()=>{
+
+        //     }")
+
+        // }
+
+        // let btn = document.getElementsByClassName("moreBtn_kBGrid");
+        let btn = document.querySelector(".more_keyBenBtn");
+        
+        const keyBenDiv = document.querySelector(".keyBenefits");
+        const keyBcontDiv = document.querySelector(".keyBContainer");
+        const keyBgridDiv = document.querySelector(".keyB_grid");
+
+        btn.addEventListener("click",()=>{
+            keyBenDiv.style.maxHeight="1000px";
+            keyBContDiv.style.maxHeight="100%";
+            // keyBContDiv.style.overflow="";
+            keyBgridDiv.style.maxHeight="100%";
+            
+
+        });
+
+
+        const sylcollapse=(accordBtn)=> {
+            
+            var syllabusAccordion = document.getElementById("more_syllabus_accordion");
+            syllabusAccordion.style.display = syllabusAccordion.style.display === "none" ? "block" : "none";
+        }
+
+        const syllSubContentCollapse=(num)=>{
+            var subContentDiv;
+            switch (num){
+                case 1:
+                    subContentDiv = document.getElementById("moreSubContents-1");
+                    subContentDiv.style.display = subContentDiv.style.display === "none" ? "block" : "none";
+                    break;
+                case 2:
+                    subContentDiv = document.getElementById("moreSubContents-2");
+                    subContentDiv.style.display = subContentDiv.style.display === "none" ? "block" : "none";
+                    break;
+                case 3:
+                    subContentDiv = document.getElementById("moreSubContents-3");
+                    subContentDiv.style.display = subContentDiv.style.display === "none" ? "block" : "none";
+                case 4:
+                    subContentDiv = document.getElementById("moreSubContents-4");
+                    subContentDiv.style.display = subContentDiv.style.display === "none" ? "block" : "none";
+                case 5:
+                    subContentDiv = document.getElementById("moreSubContents-5");
+                    subContentDiv.style.display = subContentDiv.style.display === "none" ? "block" : "none";
+                case 6:
+                    subContentDiv = document.getElementById("moreSubContents-6");
+                    subContentDiv.style.display = subContentDiv.style.display === "none" ? "block" : "none";
+                case 8:
+                    subContentDiv = document.getElementById("more_keyB_grid");
+                    subContentDiv.style.display = subContentDiv.style.display === "none" ? "block" :
+                    "none";
+                default:
+                    console.log("error");
+            }
+        }
+    </script>
 </body>
 </html>
 

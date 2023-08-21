@@ -210,8 +210,9 @@
         display: flex; /* Use flexbox */
         align-items: center; /* Center vertically */
         justify-content: center; /* Center horizontally */
-        /* height: 495px; */
+        /* height: 500px !important; */
         background-color: #0087D3;
+        max-height: 500px;
     }
 
     .keyBContainer {
@@ -222,10 +223,19 @@
         background-color: #FFF;
         padding-bottom: 30px;
         flex-shrink: 0;
+        height: 450px !important;
         /* padding-right: 40px; */
         /* padding-left: 40px; */
         width: fit-content;
+        /* overflow-y: hidden; */
+        max-height: 92%;
     }
+
+    .keyBenefits .moreBtn_kBGrid{
+        display: block;
+        text-align: center;
+    }
+    
     
     .keyB_grid {
         /* display: none; */
@@ -233,6 +243,15 @@
         grid-template-columns: auto !important;
         justify-content: space-around;
         grid-row-gap: 20px;
+        max-height: 62%;
+        overflow-y: hidden;
+    }
+    .keyB_grid .kBgridItems,.whoCanApply_grid .wCAGridItems, .wYL_grid .wYL_gridItems, .keyH_grid .kHgridItems{
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-column-gap: 10px;
+        justify-content: start;
+        align-items: normal;
     }
 
 
@@ -265,6 +284,21 @@
     .topComp_flexBox{
         display: none !important;
     }
+
+    .indusInsigh_flexItem {
+        width: -webkit-fill-available !important;
+    }
+    .indusInsigh_flexItem h4{
+        font-size: 20px;
+        font-weight: bold;
+        color: black;
+    }
+
+    .indusProj_flexBox{
+        flex-wrap: nowrap !important;
+        overflow-x: auto !important;
+    }
+
 
 }
 

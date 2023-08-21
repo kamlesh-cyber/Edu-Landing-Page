@@ -1,6 +1,7 @@
 
 .keyBContainer{
     /* border: 2px solid black; */
+    height: auto;
     margin: 40px ;
     background-color: #FFF;
     padding-bottom: 30px;
@@ -12,6 +13,8 @@
     align-items: center; /* Center vertically */
     justify-content: center; /* Center horizontally */
     /* height: 495px; */
+    height: auto;
+
     background-color: #0087D3;
 }
 .moreBtn_kBGrid{
